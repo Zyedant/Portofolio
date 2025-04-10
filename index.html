@@ -4,158 +4,432 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Wildan</title>
+    <title>Wildan | Web Developer & Cyber Security</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 <body>
     <header>
-        <a href="#" class="logo"><i>Wildan</i></a>
+        <a href="#" class="logo animate__animated animate__fadeInLeft"><span class="gradient-text">Wildan</span></a>
         <div class="bx bx-menu" id="menu-icon"></div>
         <ul class="navbar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#testimonials">Experience</a></li>
-            <li><a href="#portfolio">Project</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#portfolio" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
             <div class="bx bx-moon" id="darkmode"></div>
         </ul>
     </header>
 
     <section class="home" id="home">
-        <div class="clear"></div>
-        <div class="home-img">
-            <img src="wildan1.jpeg" alt="Wildan" width="200px" height="auto">
+        <div class="home-content">
+            <div class="home-text" data-aos="fade-right">
+                <span class="hello animate__animated animate__fadeIn">Hello, I'm</span>
+                <h1 class="animate__animated animate__fadeIn">Ajie Wildan Rif'ani</h1>
+                <h2 class="animate__animated animate__fadeIn"><span class="typing"></span></h2>
+                <p>Passionate about web development and cybersecurity with experience in building functional applications and websites.</p>
+                <div class="home-buttons">
+                    <a href="https://wa.me/+62 857-2656-2357" class="btn btn-primary">Contact Me</a>
+                    <a href="#portfolio" class="btn btn-secondary">View Projects</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://wa.me/+62 857-2656-2357"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://www.instagram.com/wildme_706/"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+            <div class="home-img" data-aos="fade-left">
+                <div class="img-container">
+                    <img src="image/wildan1.jpeg" alt="Wildan">
+                    <div class="circle-spin"></div>
+                </div>
+            </div>
         </div>
-        <div class="home-text">
-            <span>Hello, I'm</span>
-            <h1>Ajie Wildan Rif'ani</h1>
-            <h2>I'm a student and beginner web developer</h2>
-            <a href="https://wa.me/+62-857-2656-2357" class="btn">Contact Me</a>
+        <div class="scroll-down">
+            <a href="#about"><i class='bx bx-chevron-down'></i></a>
         </div>
     </section>
 
     <section class="about" id="about">
         <div class="heading">
-            <h2>About Me</h2>
+            <h2>About <span>Me</span></h2>
+            <div class="underline"></div>
         </div>
         <div class="about-container">
-            <div class="about-text">
-                <p>Hello, my name is Ajie Wildan Rif'ani, and I am a beginner web developer. I want to learn more about the world of programming. such as web development, mobile development, or even cyber security. I am still studying at SMKN 1 Bantul. My dream is to become a cyber security officer, and so that my dream can come true, I will study diligently, whether in general subjects, programming, or networking. I have learned quite a lot about creating projects at school, starting from small projects such as creating a converter application to quite large projects such as creating a hotel website with a database structure and design. At school, I was also given an understanding of how to market a good website and what websites or applications are currently in high demand. I would be happy to be taught about cyber security.</p>
+            <div class="about-img" data-aos="fade-right">
+                <img src="image/wildan1.jpeg" alt="Wildan">
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <h3>Junior Web Developer</h3>
+                <p>Hello, my name is Ajie Wildan Rif'ani, and I am a beginner web developer passionate about learning programming, web development, mobile development, and cybersecurity. Currently studying at SMKN 1 Bantul, I aspire to become a programmer professional.</p>
+                <p>I've worked on various projects from small converter applications to complex hotel management websites with database integration. My education has also provided insights into effective website marketing and current industry demands.</p>
+                
                 <div class="information">
-                    <div class="info-box">
+                    <div class="info-box" data-aos="zoom-in">
                         <i class='bx bxs-user'></i>
-                        <span>Wildan</span>
+                        <div>
+                            <span>Name</span>
+                            <p>Ajie Wildan Rif'ani</p>
+                        </div>
                     </div>
-                    <div class="info-box">
-                        <a href="https://wa.me/+62-857-2656-2357"><i class='bx bxs-phone'></i></a>
-                        <span>+857-2656-2357</span>
+                    <div class="info-box" data-aos="zoom-in" data-aos-delay="100">
+                        <a href="https://wa.me/+62 857-2656-2357"><i class='bx bxs-phone'></i></a>
+                        <div>
+                            <span>Phone</span>
+                            <p>+857-2656-2357</p>
+                        </div>
                     </div>
-                    <div class="info-box">
-                        <a href=""><i class='bx bxs-envelope'></i><span>ajiewildanrifani@gmail.com</span></a>
+                    <div class="info-box" data-aos="zoom-in" data-aos-delay="200">
+                        <a href="mailto:ajiewildanrifani@gmail.com"><i class='bx bxs-envelope'></i></a>
+                        <div>
+                            <span>Email</span>
+                            <p>ajiewildanrifani@gmail.com</p>
+                        </div>
                     </div>
                 </div>
-                <a href="Ajie Wildan Rif’ani.pdf" class="btn" download>Download CV</a>
+                <a href="Ajie Wildan Rif'ani.pdf" class="btn btn-primary" download>Download CV</a>
             </div>
         </div>
     </section>
 
     <section class="skills" id="skills">
         <div class="heading">
-            <h2>Skills</h2>
+            <h2>My <span>Skills</span></h2>
+            <div class="underline"></div>
         </div>
         <div class="skills-content">
-            <div class="skills-box">
-                <i class="fa-brands fa-html5"></i>
-                <h3>HTML</h3>
+            <div class="skills-box" data-aos="flip-left">
+                <div class="skills-icon">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <h3>HTML5</h3>
             </div>
-            <div class="skills-box">
-                <i class='fa-brands fa-css3'></i>
-                <h3>CSS</h3>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="100">
+                <div class="skills-icon">
+                    <i class='fa-brands fa-css3'></i>
+                </div>
+                <h3>CSS3</h3>
             </div>
-            <div class="skills-box">
-                <i class='fa-brands fa-c'>++</i>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="100">
+                <div class="skills-icon">
+                    <i class='fa-brands fa-js'></i>
+                </div>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="100">
+                <div class="skills-icon">
+                    <i class='fa-brands fa-js'></i>
+                </div>
+                <h3>TypeScript</h3>
+            </div>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="100">
+                <div class="skills-icon">
+                    <i class='fa-brands fa-tailwind'></i>
+                </div>
+                <h3>Tailwind CSS</h3>
+            </div>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="100">
+                <div class="skills-icon">
+                    <i class='fa-brands fa-php'></i>
+                </div>
+                <h3>PHP</h3>
+            </div>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="100">
+                <div class="skills-icon">
+                    <i class='fa-brands fa-laravel'></i>
+                </div>
+                <h3>Laravel</h3>
+            </div>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="100">
+                <div class="skills-icon">
+                    <i class='fa-brands fa-node-js'></i>
+                </div>
+                <h3>Node JS</h3>
+            </div>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="100">
+                <div class="skills-icon">
+                    <i class='fa-brands fa-react'></i>
+                </div>
+                <h3>React JS</h3>
+            </div>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="100">
+                <div class="skills-icon">
+                    <i class='fa-brands fa-react'></i>
+                </div>
+                <h3>Next JS</h3>
+            </div>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="100">
+                <div class="skills-icon">
+                    <i class='fa-brands fa-node-js'></i>
+                </div>
+                <h3>Nest JS</h3>
+            </div>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="200">
+                <div class="skills-icon">
+                    <i class='fa-solid fa-c'>++</i>
+                </div>
                 <h3>C++</h3>
             </div>
-            <div class="skills-box">
-                <i class='fa-brands fa-python'></i>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="300">
+                <div class="skills-icon">
+                    <i class='fa-brands fa-python'></i>
+                </div>
                 <h3>Python</h3>
             </div>
-            <div class="skills-box">
-                <img src="https://bitaacademy.com/wp-content/uploads/2020/01/EthicalHacking1.png" alt="" width="40px">
-                <h3>Ethical Hacking</h3>
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="300">
+                <div class="skills-icon">
+                    <i class='fa-solid fa-database'></i>
+                </div>
+                <h3>MySql</h3>
             </div>
-            <div class="skills-box">
-                <img src="https://i.etsystatic.com/19332936/r/il/c0a3d1/1851638826/il_fullxfull.1851638826_sb22.jpg" alt="" width="40px">
+            <div class="skills-box" data-aos="flip-left" data-aos-delay="500">
+                <div class="skills-icon">
+                    <i class='fa-solid fa-shield'></i>
+                </div>
                 <h3>Beginner Cyber Security</h3>
             </div>
         </div>
     </section>
 
-    <section class="testimonials" id="testimonials">
+    <section class="experience" id="experience">
         <div class="heading">
-            <h2>Experience</h2>
+            <h2>My <span>Experience</span></h2>
+            <div class="underline"></div>
         </div>
-        <div class="testimonials-content">
-            <div class="testimonial-box">
-                <p>Participan of LKS Cyber Security DIY 2024</p>
+        <div class="timeline">
+            <div class="timeline-container left" data-aos="fade-right">
+                <div class="content">
+                    <div class="tag">
+                        <h3>Created complete Review Film Website</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Attend the Samsung Innovation Campus which provides knowledge related to IoT and AI</p>
+                        <span class="date">2025</span>
+                    </div>
+                </div>
             </div>
-            <div class="testimonial-box">
-                <p>Membuat website hotel manajement dengan pengaplikasian CRUD pada database</p>
+            <div class="timeline-container right" data-aos="fade-left">
+                <div class="content">
+                    <div class="tag">
+                        <h3>Samsung Inovation Campus Batch 6</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Attend the Samsung Innovation Campus which provides knowledge related to IoT and AI</p>
+                        <span class="date">2025</span>
+                    </div>
+                </div>
             </div>
-            <div class="testimonial-box">
-                <p>Membuat aplikasi konverter</p>
+            <div class="timeline-container left" data-aos="fade-right">
+                <div class="content">
+                    <div class="tag">
+                        <h3>PKL in PT.Gamatechno Indonesia</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Fixing bugs and adding features to the company website and creating a website application that functions to conduct meetings</p>
+                        <span class="date">2024</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-container right" data-aos="fade-left">
+                <div class="content">
+                    <div class="tag">
+                        <h3>LKS Cyber Security</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Participant of LKS Cyber Security DIY 2024 competition</p>
+                        <span class="date">2024</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-container left" data-aos="fade-right">
+                <div class="content">
+                    <div class="tag">
+                        <h3>Hotel Management Website</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Created a complete hotel management website with CRUD database operations</p>
+                        <span class="date">2023</span>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-container right" data-aos="fade-left">
+                <div class="content">
+                    <div class="tag">
+                        <h3>Converter Application</h3>
+                    </div>
+                    <div class="desc">
+                        <p>Developed a unit converter application with multiple conversion types</p>
+                        <span class="date">2022</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="portfolio" id="portfolio">
         <div class="heading">
-            <h2>Projects</h2>
+            <h2>Latest <span>Projects</span></h2>
+            <div class="underline"></div>
         </div>
         <div class="portfolio-content">
-            <div class="portfolio-img">
-                <img src="hotel.png" alt="Project Image">
+            <div class="portfolio-box" data-aos="zoom-in">
+                <div class="portfolio-img">
+                    <img src="image/hotel.png" alt="Project Image">
+                    <div class="portfolio-layer">
+                        <h4>Hotel Management</h4>
+                        <p>Complete hotel management system with database integration</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="portfolio-img">
-                <img src="konversi.png" alt="Project Image">
+            <div class="portfolio-box" data-aos="zoom-in" data-aos-delay="100">
+                <div class="portfolio-img">
+                    <img src="image/konversi.png" alt="Project Image">
+                    <div class="portfolio-layer">
+                        <h4>Converter App</h4>
+                        <p>Unit converter application with multiple conversion types</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="portfolio-img">
-                <img src="CRUD.png" alt="Project Image">
+            <div class="portfolio-box" data-aos="zoom-in" data-aos-delay="200">
+                <div class="portfolio-img">
+                    <img src="image/CRUD.png" alt="Project Image">
+                    <div class="portfolio-layer">
+                        <h4>CRUD Application</h4>
+                        <p>Database management application with CRUD operations</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box" data-aos="zoom-in" data-aos-delay="200">
+                <div class="portfolio-img">
+                    <img src="image/testing-meet.png" alt="Project Image">
+                    <div class="portfolio-layer">
+                        <h4>Meeting Application</h4>
+                        <p>Web application that functions to conduct meetings</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box" data-aos="zoom-in" data-aos-delay="200">
+                <div class="portfolio-img">
+                    <img src="image/detail-film.png" alt="Project Image">
+                    <div class="portfolio-layer">
+                        <h4>Film Review Detail</h4>
+                        <p>Film review website with detailed information page</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box" data-aos="zoom-in" data-aos-delay="200">
+                <div class="portfolio-img">
+                    <img src="image/admin-film.png" alt="Project Image">
+                    <div class="portfolio-layer">
+                        <h4>Film Admin Dashboard</h4>
+                        <p>Admin panel for managing film reviews and content</p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-
     <section class="contact" id="contact">
         <div class="heading">
-            <h2>Contact</h2>
+            <h2>Contact <span>Me</span></h2>
+            <div class="underline"></div>
         </div>
-        <div class="contact-form">
-            <form action="">
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <textarea cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-                <input type="submit" value="Send" class="contact-button">
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <h3>Let's Talk!</h3>
+                <p>Feel free to reach out for collaborations or just a friendly hello</p>
+                <div class="contact-box">
+                    <div class="contact-icon">
+                        <i class='bx bxs-envelope'></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Email</h4>
+                        <p>ajiewildanrifani@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <div class="contact-icon">
+                        <i class='bx bxs-phone'></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Phone</h4>
+                        <p>+62 857-2656-2357</p>
+                    </div>
+                </div>
+                <div class="contact-box">
+                    <div class="contact-icon">
+                        <i class='bx bxs-map'></i>
+                    </div>
+                    <div class="contact-text">
+                        <h4>Location</h4>
+                        <p>Banguntapan, Bantul, Yogyakarta, Indonesia</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://wa.me/+62 857-2656-2357"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://www.instagram.com/wildme_706/"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+            <form class="contact-form" data-aos="fade-left">
+                <div class="input-box">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
             </form>
         </div>
     </section>
 
-    <div class="footer">
-        <h2>Home</h2>
-        <div class="footer-social">
-            <a href="https://wa.me/+62-857-2656-2357"><i class='bx bxl-whatsapp'></i></a>
-            <a href="https://www.instagram.com/wildme_706/"><i class='bx bxl-instagram'></i></a>
-            <a href="https://www.instagram.com/wildme_706/"><i class='bx bxl-github'></i></a>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#" class="logo"><span class="gradient-text">Wildan</span></a>
+                <p>Student & Web Developer passionate about creating digital solutions.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <p><i class='bx bxs-envelope'></i> ajiewildanrifani@gmail.com</p>
+                <p><i class='bx bxs-phone'></i> +857-2656-2357</p>
+            </div>
         </div>
-    </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Wildan Rif'ani. All Rights Reserved.</p>
+        </div>
+        <div class="back-to-top">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
 
-    <div class="copyright">
-        <p>Created By <a href="https://www.instagram.com/wildme_706/">@wildme_706</a> | All Rights Reserved.</p>
-    </div>
-
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
